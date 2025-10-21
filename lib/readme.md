@@ -3,6 +3,7 @@
 使用压缩代码，利用cdn加速效果。
 
 * 代码压缩：
+  * https://minify-js.com
   * https://onlinetool.co/zh/online-coding-helpers
 * cdn加速：
   * https://cdn.cbd.int
