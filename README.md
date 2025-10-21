@@ -24,6 +24,17 @@
 * 修正英文文字超出边框的问题
 </details>
 
+### 效果
+
+<details>
+<summary>图片展示</summary>
+  
+![](https://cdn.jsdelivr.net/gh/hoochanlon/tuchuang@main//up/20251021234339467.png)
+
+![](https://cdn.jsdelivr.net/gh/hoochanlon/tuchuang@main//up/20251021234339464.png)
+</details>
+
+
 ### 安装
 
 【1】卸载时钟
@@ -40,13 +51,14 @@ npm uninstall hexo-butterfly-clock-anzhiyu-yang
 npm install hexo-butterfly-clock-remake
 ```
 
-【3】 在站点配置文件 _config.yml 或者主题配置文件 _config.butterfly.yml 中添加：
+### 使用
+
+【1】 在站点配置文件 _config.yml 或者主题配置文件 _config.butterfly.yml 中添加：
 
 > [!NOTE]
 > 提示：使用该插件需注册和风天气开发者账号，并使用自己的和风天气api host和key。
 > 
 > 👉：https://dev.qweather.com
-
 
 ```yml
 # electric_clock
