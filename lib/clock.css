@@ -21,10 +21,8 @@ span.temp {
 }
 #hexo_electric_clock {
   padding: 20px;
-  background-color: #afafaf;     /* 背景色，可换成你想要的 */
-  border-radius: 12px;            /* 圆角半径，可调节 */
-  /* 可选：阴影效果 */
-  /* box-shadow: 0 2px 6px rgba(0,0,0,0.15);  */
+  /* 圆角半径，可调节 */ 
+  border-radius: 12px;            
 }
 .card-clock {
   padding: 0 !important;
@@ -65,11 +63,15 @@ span.temp {
   text-align: center;
   line-height: 1.5;
 }
+.card-background {
+   background-color: #afafaf;
+}
 [data-theme='dark'] .card-background {
   background-color: #212121;
 }
 [data-theme='dark'] .clock-row {
   color: #fff;
+  
 }
 @media screen and (min-width: 900px){
   .card-clock-humidity {
