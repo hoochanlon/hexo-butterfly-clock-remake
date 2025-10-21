@@ -18,7 +18,7 @@
 优化部分：
 
 * 删除了原作者无效的获取ip地址的代码
-* 删除了高德地图API处理逻辑方式
+* 移除了所有高德地图相关代码
 * 添加了UniDreamLED.ttf字体
 * 修正跨国家访问还显示中国时区时间
 * 修正英文文字超出边框的问题
@@ -62,8 +62,8 @@ electric_clock:
     name: sticky_layout
     index: 0
   loading: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/loading.gif #加载动画自定义
-  clock_css: https://cdn.cbd.int/hexo-butterfly-clock-remake@2.0.2/lib/clock.css
-  clock_js: https://cdn.cbd.int/hexo-butterfly-clock-remake@2.0.2/lib/clock.js
+  clock_css: https://cdn.cbd.int/hexo-butterfly-clock-remake@2.0.6/lib/clock-min.css
+  clock_js: https://cdn.cbd.int/hexo-butterfly-clock-remake@2.0.6/lib/clock-min.js
   qweather_api_host: {YOUR API HOST} # 和风天气API HOST地址
   qweather_key: {YOUR KEY}  # 和风天气key
   default_city: "北京" # 默认城市，可选择你自己的城市
