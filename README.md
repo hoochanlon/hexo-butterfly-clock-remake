@@ -93,6 +93,8 @@ electric_clock:
 * 免费获取IP地址API: https://github.com/ihmily/ip-info-api#address-1.3
 * IP地址查询：https://tool.lu/ip
 * 经纬度查询：https://jingweidu.bmcx.com
-* cdn加速：https://cdn.cbd.int/#/
+* cdn加速：
+  * https://cdn.cbd.int/#/
+  * https://www.jsdelivr.com/
 
 
