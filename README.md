@@ -29,7 +29,7 @@
 ```bash
 npm uninstall hexo-butterfly-clock
 npm uninstall hexo-butterfly-clock-anzhiyu 
-npm uninstall hexo-butterfly-clock-anzhiyu-yan
+npm uninstall hexo-butterfly-clock-anzhiyu-yang
 ```
 
 【2】安装本插件：
