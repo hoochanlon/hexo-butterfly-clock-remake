@@ -60,11 +60,11 @@ electric_clock:
     name: sticky_layout
     index: 0
   loading: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/loading.gif #加载动画自定义
-  clock_css: https://raw.githubusercontent.com/hoochanlon/hexo-butterfly-clock-remake/refs/heads/main/lib/clock.css
-  clock_js: https://raw.githubusercontent.com/hoochanlon/hexo-butterfly-clock-remake/refs/heads/main/lib/clock.js
-  qweather_api_host: https://pp6tupe4xx.re.qweatherapi.com # 和风天气API HOST地址
-  qweather_key: b3dceab537c74f96a77ede4b7dff13d9  # 和风天气key
-  default_city: "北京" # 默认城市
+  clock_css: https://cdn.cbd.int/hexo-butterfly-clock-remake@2.0.2/lib/clock.css
+  clock_js: https://cdn.cbd.int/hexo-butterfly-clock-remake@2.0.2/lib/clock.js
+  qweather_api_host: {YOUR API HOST} # 和风天气API HOST地址
+  qweather_key: {YOUR KEY}  # 和风天气key
+  default_city: "北京" # 默认城市，可选择你自己的城市
 ```
 
 
