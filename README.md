@@ -35,7 +35,7 @@ npm uninstall hexo-butterfly-clock-anzhiyu-yang
 【2】安装本插件：
 
 ```bash
-npm install hexo-butterfly-e-clock
+npm install hexo-butterfly-clock-remake
 ```
 
 【3】 在站点配置文件 _config.yml 或者主题配置文件 _config.butterfly.yml 中添加：
