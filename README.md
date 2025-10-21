@@ -5,6 +5,8 @@
 > [hexo-butterfly-clock-anzhiyu-yang](https://github.com/yjh2643408123/hexo-butterfly-clock-anzhiyu-yang) 项目修改而来的版> 本，为 hexo-theme-butterfly 添加侧边栏电子钟。原项目 `hexo-butterfly-clock-anzhiyu` 由 [anzhiyu-c](https://github.com/ anzhiyu-c) 开发，此版本在原项目基础上进行了重制。
 
 
+[电子时钟插件源码修改与分析过程](https://hoochanlon.github.io/posts/59603.html)
+
 <details>
 <summary>程序逻辑与优化部分</summary>
 程序逻辑：
@@ -40,14 +42,14 @@ npm install hexo-butterfly-clock-remake
 
 【3】 在站点配置文件 _config.yml 或者主题配置文件 _config.butterfly.yml 中添加：
 
->  [!warning]
-> 注：请使用自己的和风天气api host和key，本api host、key仅做功能演示。 和风天气开发者注册：
-> * https://dev.qweather.com/docs/api/console/
+> [!NOTE]
+> 提示：使用该插件需注册和风天气开发者账号，并使用自己的和风天气api host和key。
+> 
+> 👉：https://dev.qweather.com
 
 
 ```yml
 # electric_clock
-# see https://anzhiy.cn/posts/fc18.html
 electric_clock:
   enable: true # 开关
   priority: 5 #过滤器优先权
@@ -82,19 +84,19 @@ electric_clock:
   |loading|URL|【可选】电子钟加载动画的图片|
   |clock_css|URL|【可选】电子钟样式CDN资源|
   |clock_js|URL|【可选】电子钟执行脚本CDN资源|
-  |qweather_key|【必选】和风天气key|【必选】和风天气 key（默认使用hoochanlon）|
-  |qweather_api_host|【必选】和风天气 api_host|【必选】和风天气 api_host（默认使用hoochanlon）|
-  |default_city|【可选】默认城市|【可选】当默认城市为空，优先根据IP定位，填写了默认城市将优先使用默认城市的定位和天气|
+  |qweather_key|key|【必选】和风天气 key|
+  |qweather_api_host|URL|【必选】和风天气 api_host|
+  |default_city|string|【可选】当默认城市为空，优先根据IP定位，填写了默认城市将优先使用默认城市的定位和天气|
 
 
 ### 插件重制使用到的工具
 
 * 和风天气location id：https://github.com/qwd/LocationList/blob/master/China-City-List-latest.csv
-* 免费获取IP地址API: https://github.com/ihmily/ip-info-api#address-1.3
+* 免费获取IP地址API: https://github.com/ihmily/ip-info-api
 * IP地址查询：https://tool.lu/ip
 * 经纬度查询：https://jingweidu.bmcx.com
 * cdn加速：
-  * https://cdn.cbd.int/#/
-  * https://www.jsdelivr.com/
-
-
+  * https://cdn.cbd.int
+  * https://www.jsdelivr.com
+* 代码压缩：https://onlinetool.co/zh/online-coding-helpers  
+* 如何使用Github Actions发布npm包：https://herrylo.github.io/front/2023-07-23.html
