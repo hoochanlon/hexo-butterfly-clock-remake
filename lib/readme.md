@@ -4,7 +4,6 @@
 
 * 代码压缩：
   * https://onlinetool.co/zh/online-coding-helpers
-  * http://tool.uis.cc/jsmin
 * cdn加速：
   * https://cdn.cbd.int
   * https://www.jsdelivr.com
