@@ -95,8 +95,4 @@ electric_clock:
 * 免费获取IP地址API: https://github.com/ihmily/ip-info-api
 * IP地址查询：https://tool.lu/ip
 * 经纬度查询：https://jingweidu.bmcx.com
-* cdn加速：
-  * https://cdn.cbd.int
-  * https://www.jsdelivr.com
-* 代码压缩：https://onlinetool.co/zh/online-coding-helpers  
-* 如何使用Github Actions发布npm包：https://herrylo.github.io/front/2023-07-23.html
+
