@@ -2,7 +2,7 @@
 
 >  [!IMPORTANT]
 > 这是基于[hexo-butterfly-clock](https://github.com/akilarlxh/hexo-butterfly-clock)、[hexo-butterfly-clock-anzhiyu](https://github.com/anzhiyu-c/hexo-butterfly-clock-anzhiyu)、
-> [hexo-butterfly-clock-anzhiyu-yang](https://github.com/yjh2643408123/hexo-butterfly-clock-anzhiyu-yang) 项目修改而来的版> 本，为 hexo-theme-butterfly 添加侧边栏电子钟。原项目 `hexo-butterfly-clock-anzhiyu` 由 [anzhiyu-c](https://github.com/ anzhiyu-c) 开发，此版本在原项目基础上进行了重制。
+> [hexo-butterfly-clock-anzhiyu-yang](https://github.com/yjh2643408123/hexo-butterfly-clock-anzhiyu-yang) 项目修改而来的版本，为 hexo-theme-butterfly 添加侧边栏电子钟，在原项目基础上进行了重制。
 
 
 [电子时钟插件源码修改与分析过程](https://hoochanlon.github.io/posts/59603.html)
