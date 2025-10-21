@@ -4,7 +4,7 @@
 
 * 代码压缩：
   * https://minify-js.com
-  * https://formatcss.github.net.cn
+  * https://css.github.io/csso/csso.html
   * https://onlinetool.co/zh/online-coding-helpers
 * cdn加速：
   * https://cdn.cbd.int
