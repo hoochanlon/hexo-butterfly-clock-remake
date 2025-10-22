@@ -27,12 +27,15 @@
 
 ### 效果
 
+>  [!IMPORTANT]
+> 新版在配置上引入了更稳定的根据类名插入排序，移除了通过index索引排序，下图为旧版配置样例
+
 <details>
 <summary>图片展示</summary>
   
 ![ ](https://cdn.jsdelivr.net/gh/hoochanlon/tuchuang@main//up/20251022020145924.png)
 
-![](https://cdn.jsdelivr.net/gh/hoochanlon/tuchuang@main//up/20251021234339464.png)
+![ ](https://cdn.jsdelivr.net/gh/hoochanlon/tuchuang@main//up/20251021234339464.png)
 </details>
 
 
