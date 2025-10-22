@@ -17,6 +17,7 @@
 
 优化部分：
 
+* 移除了通过index索引排序，引入了根据类名排序
 * 删除了原作者无效的获取ip地址的代码
 * 移除了所有高德地图相关代码
 * 添加了UniDreamLED.ttf字体
@@ -62,23 +63,25 @@ npm install hexo-butterfly-clock-remake
 
 ```yml
 # electric_clock
+# see：https://github.com/hoochanlon/hexo-butterfly-clock-remake
 electric_clock:
-  enable: true # 开关
-  priority: 5 #过滤器优先权
-  enable_page: all # 应用页面
-  exclude:
-       # - /posts/
-       # - /about/
-  layout: # 挂载容器类型
-    type: class
-    name: sticky_layout
-    index: 0
-  loading: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/loading.gif #加载动画自定义
+  enable: true           # 插件开关
+  priority: 5            # 过滤器优先级
+  enable_page: all       # 应用页面，可写特定路径或 "all"
+  exclude:            # 排除页面，可留空或写具体路径
+    # - /posts/
+    # - /about/
+  layout:
+    type: class          # 容器类型，class 或 id
+    name: aside-content  # 目标容器的 class 或 id
+    # insert_before: user-countdown   # 插入到该元素前面 
+    insert_after: card-announcement  # 插入到该元素后面（二选一）
+  loading: https://cdn.cbd.int/hexo-butterfly-clock-remake@2.0.6/lib/loading.gif
   clock_css: https://cdn.cbd.int/hexo-butterfly-clock-remake@2.0.6/lib/clock-min.css
   clock_js: https://cdn.cbd.int/hexo-butterfly-clock-remake@2.0.6/lib/clock-min.js
-  qweather_api_host: {YOUR API HOST} # 和风天气API HOST地址
-  qweather_key: {YOUR KEY}  # 和风天气key
-  default_city: "北京" # 默认城市，可选择你自己的城市
+  qweather_api_host: {YOUR API HOST}
+  qweather_key: {YOUR KEY}
+  default_city: "资兴"
 ```
 
 
@@ -91,8 +94,9 @@ electric_clock:
   |enable_page|path|【可选】填写想要应用的页面,如根目录就填'/',分类页面就填'/categories/'。若要应用于所有页面，就填`all`，默认为`all`|
   |exclude|path|【可选】填写想要屏蔽的页面，可以多个。写法见示例。原理是将屏蔽项的内容逐个放到当前路径去匹配，若当前路径包含任一屏蔽项，则不会挂载。|
   |layout.type|id/class|【可选】挂载容器类型，填写id或class，不填则默认为id|
-  |layout.name|text|【必选】挂载容器名称|
-  |layout.index|0和正整数|【可选】前提是layout.type为class，因为同一页面可能有多个class，此项用来确认究竟排在第几个顺位|
+  |layout.name|id/class|【必选】挂载容器名称|
+  |layout.insert_before|id/class|【可选】 插入到该元素前面（二选一）|
+  |layout.insert_after|id/class|【可选】插入到该元素后面（二选一）|
   |loading|URL|【可选】电子钟加载动画的图片|
   |clock_css|URL|【可选】电子钟样式CDN资源|
   |clock_js|URL|【可选】电子钟执行脚本CDN资源|
