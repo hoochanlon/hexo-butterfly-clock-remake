@@ -33,9 +33,10 @@
 <details>
 <summary>图片展示</summary>
   
-![ ](https://cdn.jsdelivr.net/gh/hoochanlon/tuchuang@main//up/20251022020145924.png)
+![20251021234339464](https://tu.zbhz.org/i/2025/10/24/3b359i.png)
 
-![ ](https://cdn.jsdelivr.net/gh/hoochanlon/tuchuang@main//up/20251021234339464.png)
+![20251022020145924](https://tu.zbhz.org/i/2025/10/24/3b3fke.png)
+
 </details>
 
 
